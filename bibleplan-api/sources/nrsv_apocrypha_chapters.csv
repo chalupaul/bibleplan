@@ -1,0 +1,200 @@
+book,chapter,num_verses,num_words
+Tobit,1,22,853
+Tobit,2,14,569
+Tobit,3,17,736
+Tobit,4,21,797
+Tobit,5,22,1008
+Tobit,6,18,859
+Tobit,7,16,638
+Tobit,8,21,626
+Tobit,9,6,238
+Tobit,10,13,605
+Tobit,11,18,515
+Tobit,12,22,560
+Tobit,13,18,647
+Tobit,14,15,765
+Judith,1,16,500
+Judith,2,28,703
+Judith,3,10,211
+Judith,4,15,468
+Judith,5,24,703
+Judith,6,21,630
+Judith,7,32,963
+Judith,8,36,1098
+Judith,9,14,537
+Judith,10,23,727
+Judith,11,23,791
+Judith,12,20,550
+Judith,13,20,677
+Judith,14,19,583
+Judith,15,14,482
+Judith,16,25,678
+Additions to Esther,A,18,361
+Additions to Esther,B,6,312
+Additions to Esther,C,30,792
+Additions to Esther,D,16,297
+Additions to Esther,E,24,656
+Additions to Esther,F,11,264
+Wisdom of Solomon,1,16,360
+Wisdom of Solomon,2,24,545
+Wisdom of Solomon,3,19,373
+Wisdom of Solomon,4,20,452
+Wisdom of Solomon,5,23,570
+Wisdom of Solomon,6,25,478
+Wisdom of Solomon,7,30,617
+Wisdom of Solomon,8,21,479
+Wisdom of Solomon,9,18,389
+Wisdom of Solomon,10,21,484
+Wisdom of Solomon,11,26,540
+Wisdom of Solomon,12,27,646
+Wisdom of Solomon,13,19,518
+Wisdom of Solomon,14,31,752
+Wisdom of Solomon,15,19,523
+Wisdom of Solomon,16,29,706
+Wisdom of Solomon,17,21,477
+Wisdom of Solomon,18,25,649
+Wisdom of Solomon,19,22,531
+Sirach,0,36,285
+Sirach,1,30,453
+Sirach,2,18,312
+Sirach,3,31,484
+Sirach,4,31,503
+Sirach,5,15,250
+Sirach,6,37,626
+Sirach,7,36,589
+Sirach,8,19,372
+Sirach,9,18,380
+Sirach,10,31,549
+Sirach,11,34,598
+Sirach,12,18,395
+Sirach,13,26,522
+Sirach,14,27,426
+Sirach,15,20,327
+Sirach,16,30,495
+Sirach,17,32,432
+Sirach,18,33,524
+Sirach,19,30,438
+Sirach,20,31,504
+Sirach,21,28,489
+Sirach,22,27,560
+Sirach,23,27,659
+Sirach,24,34,584
+Sirach,25,26,475
+Sirach,26,29,587
+Sirach,27,30,517
+Sirach,28,26,490
+Sirach,29,28,545
+Sirach,30,25,405
+Sirach,31,31,594
+Sirach,32,24,408
+Sirach,33,33,618
+Sirach,34,31,472
+Sirach,35,26,405
+Sirach,36,31,427
+Sirach,37,31,557
+Sirach,38,34,779
+Sirach,39,35,703
+Sirach,40,30,584
+Sirach,41,22,474
+Sirach,42,25,611
+Sirach,43,33,613
+Sirach,44,23,479
+Sirach,45,26,706
+Sirach,46,20,498
+Sirach,47,25,560
+Sirach,48,25,502
+Sirach,49,16,324
+Sirach,50,29,637
+Sirach,51,30,851
+Baruch,1,22,626
+Baruch,2,35,921
+Baruch,3,38,720
+Baruch,4,37,743
+Baruch,5,9,197
+Epistle of Jeremiah,1,73,1674
+Prayer of Azariah & Song of the Three Jews,1,67,1300
+Susanna,1,63,1406
+Bel and the Dragon,1,42,1007
+1 Maccabees,1,64,1221
+1 Maccabees,2,70,1327
+1 Maccabees,3,60,1347
+1 Maccabees,4,61,1310
+1 Maccabees,5,68,1647
+1 Maccabees,6,63,1561
+1 Maccabees,7,50,1183
+1 Maccabees,8,32,853
+1 Maccabees,9,73,1699
+1 Maccabees,10,89,2187
+1 Maccabees,11,74,1858
+1 Maccabees,12,53,1255
+1 Maccabees,13,53,1291
+1 Maccabees,14,49,1284
+1 Maccabees,15,41,1066
+1 Maccabees,16,24,666
+2 Maccabees,1,36,910
+2 Maccabees,2,32,860
+2 Maccabees,3,40,1174
+2 Maccabees,4,50,1427
+2 Maccabees,5,27,846
+2 Maccabees,6,31,943
+2 Maccabees,7,42,1214
+2 Maccabees,8,36,1122
+2 Maccabees,9,29,977
+2 Maccabees,10,38,1062
+2 Maccabees,11,38,862
+2 Maccabees,12,45,1398
+2 Maccabees,13,26,706
+2 Maccabees,14,46,1274
+2 Maccabees,15,39,1130
+1 Esdras,1,55,1501
+1 Esdras,2,25,802
+1 Esdras,3,23,491
+1 Esdras,4,61,1470
+1 Esdras,5,701,1869
+1 Esdras,6,33,1036
+1 Esdras,7,15,345
+1 Esdras,8,92,2417
+1 Esdras,9,55,1126
+Prayer of Manasseh,1,15,399
+Psalms,151,7,107
+3 Maccabees,1,29,857
+3 Maccabees,2,33,956
+3 Maccabees,3,30,956
+3 Maccabees,4,21,767
+3 Maccabees,5,51,1514
+3 Maccabees,6,41,1218
+3 Maccabees,7,23,757
+2 Esdras,1,40,950
+2 Esdras,2,48,1117
+2 Esdras,3,36,815
+2 Esdras,4,52,1404
+2 Esdras,5,56,1484
+2 Esdras,6,59,1413
+2 Esdras,7,140,3464
+2 Esdras,8,63,1518
+2 Esdras,9,47,1112
+2 Esdras,10,59,1409
+2 Esdras,11,46,970
+2 Esdras,12,51,1192
+2 Esdras,13,58,1377
+2 Esdras,14,48,1038
+2 Esdras,15,63,1408
+2 Esdras,16,78,1610
+4 Maccabees,1,35,781
+4 Maccabees,2,24,567
+4 Maccabees,3,21,419
+4 Maccabees,4,26,669
+4 Maccabees,5,38,822
+4 Maccabees,6,35,665
+4 Maccabees,7,23,497
+4 Maccabees,8,29,719
+4 Maccabees,9,32,728
+4 Maccabees,10,21,395
+4 Maccabees,11,27,467
+4 Maccabees,12,19,410
+4 Maccabees,13,27,614
+4 Maccabees,14,20,450
+4 Maccabees,15,32,764
+4 Maccabees,16,25,588
+4 Maccabees,17,24,504
+4 Maccabees,18,24,516
