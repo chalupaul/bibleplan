@@ -16,7 +16,14 @@ black = "^23.10.0"
 flake8-bugbear = "^23.9.16"
 mypy = "^1.6.1"
 isort = "^5.12.0"
+taskipy = "^1.12.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+black = "black bibleplan_api tests"
+flake = "flake8 bibleplan_api tests"
+mypy = "mypy bibleplan_api tests"
+test = "task black && task flake && task mypy"
