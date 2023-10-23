@@ -101,14 +101,17 @@ def test_it(og_vals, solved):
     print(og == ng)
 
 
-def parse_file(filename):
+def read_file(filename):
     srcdir = "sources"
-    sections = {}
     text = open(f"{srcdir}{os.path.sep}{filename}", "r")
     lines = text.readlines()
     # Title line gotta get removed
     lines.pop(0)
     text.close()
+    return lines
+
+def parse_file(lines):
+    sections = {}
     books = []
     for line in lines:
         line = line.strip()
@@ -121,12 +124,14 @@ def parse_file(filename):
     return {"books": books, "chapters": sections}
 
 
-def get_66():
-    return parse_file("esv_chapters.csv")
 
+def get_66():
+    lines = read_file("esv_chapters.csv")
+    return parse_file(lines)
 
 def get_apocrypha():
-    return parse_file("nrsv_apocrypha_chapters.csv")
+    lines = read_file("nrsv_apocrypha_chapters.csv")
+    return parse_file(lines)
 
 
 def make_chapters(part_vals, chapter_map):
@@ -181,12 +186,21 @@ for func in booklist_funcs:
     for key in dataset["chapters"].keys():
         book_dict[key] = dataset["chapters"][key]
 
-raw_vals = list(book_dict.values())
-plan_data = bin_weights(raw_vals, 365)
-chapters = make_chapters(plan_data, book_list)
-# print(chapters)
-chapters = format_chapters(chapters)
-print(chapters)
+book_names = []
+for book in book_list:
+    book_parts = book.split(' ')[:-1]
+    book_name = ' '.join(book_parts)
+    if book_name not in book_names:
+        book_names.append(book_name)
+print(book_names)
+
+def gen_plan():
+    raw_vals = list(book_dict.values())
+    plan_data = bin_weights(raw_vals, 365)
+    chapters = make_chapters(plan_data, book_list)
+    # print(chapters)
+    chapters = format_chapters(chapters)
+    print(chapters)
 
 # test_it(raw_vals, plan_data)
 
